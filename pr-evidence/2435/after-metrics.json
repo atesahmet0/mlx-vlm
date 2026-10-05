@@ -1,0 +1,401 @@
+{
+  "args": {
+    "frames": 8,
+    "objects": 4,
+    "start": 0,
+    "name": "static-ropefix",
+    "chunk_attention": true,
+    "precision": "bfloat16",
+    "repeat_first": true,
+    "seed_cache": "results/sam31-mlx/static-bf16/seeds.npz",
+    "fix_rope": true
+  },
+  "device": {
+    "device_name": "Apple M5",
+    "max_recommended_working_set_size": 12713115648,
+    "memory_size": 17179869184,
+    "architecture": "applegpu_g17g",
+    "max_buffer_length": 9534832640,
+    "resource_limit": 499000
+  },
+  "fresh_backbone_every_frame": true,
+  "model": "mlx-community/sam3.1-bf16",
+  "input_size": [
+    1008,
+    1008
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "seconds": 2.1371550419717096,
+      "backbone_seconds": 0.9658076670020819,
+      "nonempty_masks": 4,
+      "scores": [
+        0.8577250242233276,
+        0.8414925932884216,
+        0.8351912498474121,
+        0.8344273567199707
+      ],
+      "peak_mlx_gib": 3.6597478482872248,
+      "active_mlx_gib": 1.705940218642354,
+      "peak_rss_gib": 2.585601806640625,
+      "mask_stats": [
+        {
+          "components": 1,
+          "area": 1606,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 1.0
+        },
+        {
+          "components": 1,
+          "area": 1916,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 1.0
+        },
+        {
+          "components": 1,
+          "area": 1672,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 1.0
+        },
+        {
+          "components": 1,
+          "area": 2061,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 1.0
+        }
+      ]
+    },
+    {
+      "frame": 1,
+      "seconds": 1.5247024999698624,
+      "backbone_seconds": 0.9505359579925425,
+      "nonempty_masks": 4,
+      "scores": [
+        0.9999797344207764,
+        0.9999865889549255,
+        0.9999821186065674,
+        0.9999728202819824
+      ],
+      "peak_mlx_gib": 3.6597478482872248,
+      "active_mlx_gib": 1.7525249738246202,
+      "peak_rss_gib": 2.585601806640625,
+      "mask_stats": [
+        {
+          "components": 1,
+          "area": 1657,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9330568720379147
+        },
+        {
+          "components": 1,
+          "area": 2003,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9333991119881598
+        },
+        {
+          "components": 1,
+          "area": 1623,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9057258530942741
+        },
+        {
+          "components": 1,
+          "area": 2112,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9292649098474342
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "seconds": 1.5985833749873564,
+      "backbone_seconds": 0.9465852919965982,
+      "nonempty_masks": 4,
+      "scores": [
+        0.9999794363975525,
+        0.9999820590019226,
+        0.9999730587005615,
+        0.9999526739120483
+      ],
+      "peak_mlx_gib": 3.6597478482872248,
+      "active_mlx_gib": 1.788703577592969,
+      "peak_rss_gib": 2.585601806640625,
+      "mask_stats": [
+        {
+          "components": 1,
+          "area": 1646,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9380214541120382
+        },
+        {
+          "components": 1,
+          "area": 1979,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9387755102040817
+        },
+        {
+          "components": 1,
+          "area": 1628,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9075144508670521
+        },
+        {
+          "components": 1,
+          "area": 2086,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9351376574895007
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "seconds": 1.7601151659619063,
+      "backbone_seconds": 0.930162874981761,
+      "nonempty_masks": 4,
+      "scores": [
+        0.9999722242355347,
+        0.9999774098396301,
+        0.9999676942825317,
+        0.999933660030365
+      ],
+      "peak_mlx_gib": 3.6597478482872248,
+      "active_mlx_gib": 1.8248821813613176,
+      "peak_rss_gib": 2.585601806640625,
+      "mask_stats": [
+        {
+          "components": 1,
+          "area": 1648,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9380583680762359
+        },
+        {
+          "components": 1,
+          "area": 1977,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9387450199203188
+        },
+        {
+          "components": 1,
+          "area": 1632,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9087232813402657
+        },
+        {
+          "components": 1,
+          "area": 2083,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9337377508166123
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "seconds": 1.8757184160058387,
+      "backbone_seconds": 0.9278249999624677,
+      "nonempty_masks": 4,
+      "scores": [
+        0.9999653697013855,
+        0.9999714493751526,
+        0.999962329864502,
+        0.9999095797538757
+      ],
+      "peak_mlx_gib": 3.6597478482872248,
+      "active_mlx_gib": 1.8610607851296663,
+      "peak_rss_gib": 2.585601806640625,
+      "mask_stats": [
+        {
+          "components": 1,
+          "area": 1648,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9380583680762359
+        },
+        {
+          "components": 1,
+          "area": 1979,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9378109452736318
+        },
+        {
+          "components": 1,
+          "area": 1636,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9099307159353349
+        },
+        {
+          "components": 1,
+          "area": 2083,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9337377508166123
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "seconds": 2.034787625016179,
+      "backbone_seconds": 0.9164431670214981,
+      "nonempty_masks": 4,
+      "scores": [
+        0.9999597072601318,
+        0.999967098236084,
+        0.9999582171440125,
+        0.9998894929885864
+      ],
+      "peak_mlx_gib": 3.6597478482872248,
+      "active_mlx_gib": 1.897239388898015,
+      "peak_rss_gib": 2.585601806640625,
+      "mask_stats": [
+        {
+          "components": 1,
+          "area": 1652,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9369797859690844
+        },
+        {
+          "components": 1,
+          "area": 1985,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9359801488833747
+        },
+        {
+          "components": 1,
+          "area": 1637,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9094056549336411
+        },
+        {
+          "components": 1,
+          "area": 2082,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9332711152589828
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "seconds": 2.315553499967791,
+      "backbone_seconds": 0.9487403329694644,
+      "nonempty_masks": 4,
+      "scores": [
+        0.999952495098114,
+        0.9999604821205139,
+        0.9999530911445618,
+        0.9998465776443481
+      ],
+      "peak_mlx_gib": 3.6597478482872248,
+      "active_mlx_gib": 1.9334179926663637,
+      "peak_rss_gib": 2.585601806640625,
+      "mask_stats": [
+        {
+          "components": 1,
+          "area": 1659,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9342417061611374
+        },
+        {
+          "components": 1,
+          "area": 1991,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9351163942545815
+        },
+        {
+          "components": 1,
+          "area": 1645,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9096142774899252
+        },
+        {
+          "components": 1,
+          "area": 2082,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9323694029850746
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "seconds": 2.9851261249859817,
+      "backbone_seconds": 0.9382219580002129,
+      "nonempty_masks": 4,
+      "scores": [
+        0.999953031539917,
+        0.999962329864502,
+        0.9999550580978394,
+        0.9998719692230225
+      ],
+      "peak_mlx_gib": 3.6679246854037046,
+      "active_mlx_gib": 1.9695965964347124,
+      "peak_rss_gib": 2.585601806640625,
+      "mask_stats": [
+        {
+          "components": 1,
+          "area": 1652,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9369797859690844
+        },
+        {
+          "components": 1,
+          "area": 1985,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9350198412698413
+        },
+        {
+          "components": 1,
+          "area": 1634,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9098786828422877
+        },
+        {
+          "components": 1,
+          "area": 2074,
+          "largest_component_fraction": 1.0,
+          "iou_with_seed": 0.9331463300607761
+        }
+      ]
+    }
+  ],
+  "attention_equivalence_max_abs_error": 0.0,
+  "stored_weight_dtypes": [
+    "mlx.core.float32"
+  ],
+  "rope_coordinate_order": "x_then_y_reference",
+  "weight_dtypes": [
+    "mlx.core.bfloat16"
+  ],
+  "load_seconds": 1.0395349169848487,
+  "total_initial_detections": 72,
+  "playing_area_candidates": 24,
+  "seed_boxes": [
+    [
+      1462.0133056640625,
+      467.6876525878906,
+      1490.91162109375,
+      550.07080078125
+    ],
+    [
+      894.5640869140625,
+      539.5286254882812,
+      928.5245361328125,
+      632.121337890625
+    ],
+    [
+      720.6692504882812,
+      510.3035888671875,
+      759.8864135742188,
+      589.7090454101562
+    ],
+    [
+      652.724609375,
+      570.7586669921875,
+      701.740234375,
+      655.3087158203125
+    ]
+  ],
+  "seed_scores": [
+    0.8577250242233276,
+    0.8414925932884216,
+    0.8351912498474121,
+    0.8344273567199707
+  ],
+  "seed_cache": "results/sam31-mlx/static-bf16/seeds.npz"
+}
